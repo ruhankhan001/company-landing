@@ -122,6 +122,9 @@ li a {
     }
     .footerp1{
       margin-top: 50px;
+      font-size: 30px;
+      margin-left: 10px;
+      margin-bottom: 20px;
     }
     .footerb{
       margin-left: 90px;
@@ -139,6 +142,15 @@ li a {
 
     .fill{
       font-size: 12px;
+    }
+    .centercomp{
+      margin-left: 60px;
+    }
+    /* .domainback{
+      height: 1900px;
+    } */
+    .question{
+      margin-right: 40px;
     }
   
   }
@@ -377,18 +389,12 @@ li a {
   .footer{
     background-repeat: no-repeat;
     padding-top: 20vw;
-    padding-bottom: 5vw;
+    padding-bottom: 7vw;
     background-size: contain;
     background-position: center top;
     background-image: url('../image/footer.png'),linear-gradient(237deg,#46b3ff 0%,#0752fe 100%)!important;
   }
   
-  .footerp{
-    text-align: center;
-  }
-  .footerp1{
-    text-align: center;
-  }
   
   .animate__animated.animate__fadeInDown {
     --animate-duration: 2s;
@@ -400,4 +406,20 @@ li a {
   .plusicon{
     cursor: pointer;
   }
-  
+
+  .question{
+  box-shadow: 0 8px 16px 0 rgba(32, 32, 32, 0.2), 0 6px 20px 0 rgba(50, 50, 50, 0.19);    
+  }
+
+  .backgroundabout{
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-image: url('../image/background.png'),linear-gradient(180deg,#ffffff 0%,#d8ecf7 100%)!important;
+  }
+  .error{
+    color:  red !important;
+    font-size: 15px;
+  }
